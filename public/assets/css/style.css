@@ -1,9 +1,13 @@
 body {
   background-image: url("../img/background.jpg");
+  font-family: 'IM Fell English', serif;
 }
 
 h1 {
 	font-size: 100px;
+}
+
+a, h1, h2, h3, h4, h5, h6 {
 	font-family: 'IM Fell English', serif;
 }
 
@@ -31,7 +35,7 @@ h1 {
 	opacity: .98;
 }
 
-p {
+p, li {
 	color: black;
 }
 
@@ -73,6 +77,12 @@ p {
     color: #ffffff;
     background-color: #A199E9;
     border-color: #A199E9;
+}
+
+.btn-info:hover {
+    color: #ffffff;
+    background-color: #4551A5;
+    border-color: #4551A5;
 }
 
 /*Saved Articles Page*/
